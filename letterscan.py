@@ -10,11 +10,7 @@ words = input("Nice to meet you " + name+ ". What words would you like calculate
 
 upperwords = words.upper()
 
-for letter in upperwords:
-	lstletter.append(letter)
-	
-
-for sanletter in lstletter:
+for sanletter in upperwords:
         if sanletter.isalpha():
                 sanlstletter.append(sanletter)
 
